@@ -65,6 +65,7 @@ surfaces = (
     )
 
 def Cube():
+    glEnable(GL_DEPTH_TEST)
     glBegin(GL_QUADS)
     for surface in surfaces:
         x = 0
