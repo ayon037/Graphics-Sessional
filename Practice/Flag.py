@@ -86,7 +86,7 @@ def main():
         Rectangle1()
         Rectangle2()
         circle()
-        # glRotatef(1,3,1,1)
+        glRotatef(1,0,1,0)
         pygame.display.flip()
         pygame.time.wait(10)
         

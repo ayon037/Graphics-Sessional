@@ -38,7 +38,7 @@ def solidCube():
     
 
 def Read_Image_Add_Texture():
-    image = pg.image.load('woodtiles.jpg')
+    image = pg.image.load('Images\\woodtiles.jpg')
     datas = pg.image.tostring(image,'RGBA')
     texID = glGenTextures(1)
     

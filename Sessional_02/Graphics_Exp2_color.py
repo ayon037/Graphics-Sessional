@@ -76,7 +76,7 @@ def Cube():
     glEnd()
     
 def Read_Image_Add_Texture():
-    image = pygame.image.load('cookie.jpg')
+    image = pygame.image.load('.\Images\cookie.jpg')
     datas = pygame.image.tostring(image,'RGBA')
     texID = glGenTextures(1)
     
